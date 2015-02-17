@@ -1,16 +1,29 @@
-body {
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.header {
   background-image: url(/containers.jpg);
   background-size: cover;
   color: white;
+  height: 100vh;
+  padding-top: 40vh;
+  text-align: center;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 7em;
+  text-shadow: 5px 6px 24px #000;
+}
+h2 {
+  font-size: 5em;
+  text-shadow: 5px 6px 24px #000;
 }
 
-.info {
+/*.info {
   width: 420px;
   margin: 30vh auto;
   padding: 20px 40px 40px;
   background: rgba(200, 54, 54, 0.5);
-}
+}*/
